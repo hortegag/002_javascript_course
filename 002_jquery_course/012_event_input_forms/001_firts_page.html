@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>First Web Page</title>
+
+  <style>
+    body{
+      font-size: 32px;
+    }
+      div {
+        margin-top: .1em;
+      }
+
+
+  </style>
+</head>
+<body>
+  <form>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name"/>
+      <span class="help" hidden="hidden">Please enter a name</span>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="text" class="form-control" id="email"/>
+      <span class="help" hidden="hidden">Please enter an email</span>
+    </div>
+  </form>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="validations.js">
+  </script>
+</body>
+</html>
