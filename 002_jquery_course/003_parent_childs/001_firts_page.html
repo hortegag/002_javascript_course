@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>First Web Page</title>
+
+  <style>
+    body{
+      font-size: 32px;
+    }
+      div {
+        margin-top: .1em;
+      }
+
+      .parent {
+        margin-left: .8em;
+      }
+
+      .child {
+        margin-left: .8em;
+      }
+
+  </style>
+</head>
+<body>
+  <h1>Hello Héctor Ortega</h1>
+  <div id="target" style="color: black">
+    GrandParent
+    <div style="color: black" class="parent">
+      -Parent
+      <div style="color:black" class="child">-First Child</div>
+      <div style="color:black" class="child">-Second Child</div>
+    </div>
+    <div id="secondParent" style="color: black" class="parent s">
+      -Parent Two
+      <div style="color:black" class="child demo">-First Child</div>
+      <div style="color:black" class="child demo">-Second Child</div>
+    </div>
+  </div>
+
+
+  <div id="targetTwo" style="color: black">
+    GrandParentTwo
+    <div style="color: black" class="parent">
+      -Parent
+      <div style="color:black" class="child">-First Child</div>
+      <div style="color:black" class="child">-Second Child</div>
+    </div>
+    <div id="secondParent" style="color: black" class="parent demo">
+      -Parent Two
+      <div style="color:black" class="child demo">-First Child</div>
+      <div style="color:black" class="child " id="secondDemo">-Second Child</div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="validations.js">
+  </script>
+</body>
+</html>
